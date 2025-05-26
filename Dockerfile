@@ -1,5 +1,5 @@
 # Use Apache Tomcat as the base image
-FROM tomcat:9.0-jdk17
+FROM eclipse-temurin:11-jdk-noble
 
 # Remove the default web apps
 RUN rm -rf /usr/local/tomcat/webapps/*
